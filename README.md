@@ -12,6 +12,13 @@ curl https://get.wasmer.io -sSfL | sh
 
 > For other installation instructions you can visit this page: https://github.com/wasmerio/wasmer-install
 
+
+*Note: If you have Wasmer already installed, make sure that your wapm version is 0.5.5 or greater. Any new installation of Wasmer will install the latest version of WAPM*
+
+```
+wapm --version 
+```
+
 ## 2. Open an account in WAPM
 
 Open an account in [WAPM](https://wapm.io).
