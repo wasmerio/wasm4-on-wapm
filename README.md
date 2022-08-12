@@ -2,6 +2,8 @@
 
 This is an example repo showcasing how to publish your WASM-4 game as a package to WAPM.
 
+> All packages properly tagged and showing up on https://wapm.io/interface/wasm4 will opt-in for the prize of the [WASM-4 Jam #2](https://itch.io/jam/wasm4-v2)
+
 ## 1. Install Wasmer
 
 ```bash
