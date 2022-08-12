@@ -44,6 +44,28 @@ Don't forget it to put the proper name for the package `YOUR_USERNAME/THE_NAME_O
 
 > Note: You can also type `wapm init` and follow the instructions (you will need to select the `WASM4` ABI)
 
+Example `wapm.toml` file:
+
+```toml
+[package]
+name = "{YOUR_USERNAME}/my-game"
+version = "0.1.4"
+description = "This is my awesome game"
+readme = "README.md"
+repository = "https://github.com/..."
+
+[[module]]
+name = "game"
+source = "game.wasm"
+abi = "wasm4"
+interfaces = { wasm4 = "0.0.1" }
+
+[[command]]
+runner = "wasm4@0.0.1"
+name = "play"
+module = "game"
+```
+
 ## 5. Create a README.md file
 
 Next to your `wapm.toml`, create a file named `README.md`.
